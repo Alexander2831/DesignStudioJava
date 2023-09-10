@@ -1,0 +1,210 @@
+@import "./reset.css";
+@import url(font.css);
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+  
+}
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+}
+.projects {
+    background-color: #131313;
+    padding-top: 107px;
+    padding-bottom: 400px;
+  }
+  .projects__description__flat {
+    color: #FFF;
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 190.96%;
+  }
+  .projects__charachteristics {
+    color: #FFF;
+font-family: Nunito Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 163.68%;
+  }
+  .projects__title {
+    color: #E3B873;
+font-family: Yeseva One;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 138.6%; /* 37.422px */
+letter-spacing: -1.89px;
+text-transform: uppercase;
+  }
+  .projects__container {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .projects__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 442px;
+  }
+  
+  .projects__description__flat {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 25px 0 40px;
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .projects__description__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 21px;
+    gap: 30px;
+    max-width: 370px;
+    margin-bottom: 81px;
+    display: none;
+  }
+  
+  .projects__description__list_visible {
+    display: grid;
+  }
+  
+  .projects__description__list li h3 {
+    letter-spacing: normal;
+  }
+  
+  .projects__description__list_mobile {
+    display: none;
+  }
+  
+  .projects__description__list_decktop li h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+  
+  .projects__spinner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .spinner__button_desktop {
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    margin: 0;
+  }
+  
+  .spinner__points {
+    margin: 0 29px;
+    display: flex;
+    column-gap: 17px;
+  }
+  
+  .spinner__point,
+  .spinner__point:active {
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .spinner-active,
+  .spinner__point:hover {
+    background: #ffffff;
+  }
+  
+  .projects__gallery ul {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 45px;
+  }
+  
+  .projects__gallery__image {
+    max-width: 679px;
+    max-height: 482px;
+    overflow: hidden;
+  }
+  
+  .projects__gallery__image_box {
+    position: relative;
+    left: 0px;
+    max-height: 482px;
+    max-width: 2037px;
+    display: flex;
+  
+    transition: 0.6s;
+  }
+  
+  .projects__gallery img {
+    max-width: 100%;
+  }
+  
+  .projects__gallery__spinner_mobile {
+    display: none;
+  }
+  
+  .gallery__button {
+    background: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    transition: 0.1s;
+  }
+  
+  .gallery__button:hover {
+    border-bottom: 1px solid #e3b873;
+  }
+  
+  .gallery-active {
+    color: #e3b873;
+    border-bottom: 1px solid #e3b873;
+    transition: 0.6s;
+  }
+  .golden {
+    color: #e3b873;
+  }
+  .title {
+    color: #E3B873;
+font-family: Yeseva One;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 138.6%; /* 24.948px */
+text-transform: uppercase;
+  }
+
+  ul {
+    list-style-type: none;
+  }
